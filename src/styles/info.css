@@ -1,0 +1,110 @@
+.Head{
+  font-size: 36px;
+}
+.Hour{
+    margin: auto;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.city{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    margin-left:80px;
+}
+.notch {
+  height: 27px;
+  width: 100px;
+  margin: 10px auto;
+  margin-left: 160px;
+  border-radius: 20px;
+  background-color: black;
+}
+.info{
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 1px 1px rgba(50, 50, 70, 0.5);
+}
+  .header h1{
+  
+    margin-left:60px;
+  }
+  .backButton{
+
+    width:50px;
+    margin-left: 10px;
+  }
+  .backButton:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .holder{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background: rgba(140, 140, 140, 0.4);
+    backdrop-filter: blur(9px);
+    height:550px;
+  }
+  .descHead{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:120px;
+    background: rgba(178, 178, 178, 0.4);
+    font-size: 20px;
+    padding-top: 20px;
+    border-radius: 20px 0px 0px 20px;
+  }
+    .descHead h2{
+      margin-top: 0px;
+    }
+    .descHead h3{
+      margin-top: 60px;
+    }
+  .timeSlots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+    width:295px;
+    margin-top: 10px;
+  }
+    
+  .timeSlot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; 
+  }
+  .timeSlot p{
+    margin-top: 63px;
+  }
+  .rankSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+    .rankSection h2{
+      font-size: 40px;
+    }
+  .veryGood{
+    margin-top: 35px;
+    margin-left:60px;
+    width: 40%;
+    height:40%;
+  }
+
+  .time {
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    font-size: 20px;
+  }
+.recommend{
+  text-align: center;
+  margin-top: -10px;
+}
